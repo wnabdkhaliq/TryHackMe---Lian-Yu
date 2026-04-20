@@ -49,7 +49,7 @@ Upon discovering the /2100 directory, a manual inspection of the page's source c
 
 <img width="1274" height="498" alt="6Ticket2100" src="https://github.com/user-attachments/assets/342390f0-9c24-470a-b963-d919943bcab7" />
 
-**Step 7 Identifying the Access Token **
+**Step 7 Identifying the Access Token**
 
 Guided by the hint discovered in the source code of the /2100 directory, a specialized Gobuster scan was executed to locate the specific file mentioned.
 
@@ -59,7 +59,7 @@ Key Discovery: The scan successfully identified a file named green_arrow.ticket 
 
 <img width="736" height="435" alt="7GreenArrowTicket" src="https://github.com/user-attachments/assets/01104771-4b03-49af-9d2d-961343b62223" />
 
-**Step 8 Accessing the Queen’s Gambit Token **
+**Step 8 Accessing the Queen’s Gambit Token**
 
 Once the hidden file was identified through enumeration, it was accessed to retrieve the potential credential required for the next stage of the attack
 
@@ -69,7 +69,7 @@ Data Extraction: Directly below the text, a unique string was identified: **RTy8
 
 <img width="1283" height="327" alt="8Gambit" src="https://github.com/user-attachments/assets/809f5fb1-ad28-408b-a654-ea8688fa7bc8" />
 
-**Step 9 Decoding the Access Token **
+**Step 9 Decoding the Access Token**
 
 The encoded string retrieved from the green_arrow.ticket file required decryption to obtain the actual credential. Based on the character set, a Base-58 decoding algorithm was identified as the likely method.
 
@@ -80,7 +80,7 @@ Decoding Result: The tool successfully converted the ciphertext into the plainte
 <img width="664" height="619" alt="9Base58" src="https://github.com/user-attachments/assets/10cd2c77-a184-421a-8f30-969766480b2f" />
 
 
-**Step 10 FTP Exploitation and Data Exfiltration **
+**Step 10 FTP Exploitation and Data Exfiltration**
 
 With the password **!#th3h00d** successfully decoded, the next phase involved accessing the FTP service identified during the initial scan. This service was used to harvest sensitive files from the target machine.
 
