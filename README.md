@@ -116,6 +116,7 @@ Technical Action: To repair the file, the corrupted bytes were manually edited a
 
 <img width="736" height="513" alt="13Hexedit" src="https://github.com/user-attachments/assets/ee059303-fc0d-4835-abb5-86d59250e1ae" />
 
+<img width="555" height="405" alt="Leave_me_alone" src="https://github.com/user-attachments/assets/1daa4d0f-b5e0-4fc8-a8b8-2e88f7ebf181" />
 
 **Step 13 Steganographic Extraction and Data Decryption**
 
