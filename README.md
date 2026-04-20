@@ -15,7 +15,7 @@ Following the discovery of an open web service (Port 80), the target IP was acce
 
 <img width="1671" height="1199" alt="2HTTP" src="https://github.com/user-attachments/assets/5a5023ff-d00e-4de5-942d-ffa1da43b7bd" />
 
-**Step 3 Web Directory Enumeration **
+**Step 3 Web Directory Enumeration**
 
 To identify hidden directories and potential entry points within the web application, a directory brute-force attack was conducted. This process helps uncover paths that are not linked on the main landing page.
 
